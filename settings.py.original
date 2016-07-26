@@ -1,5 +1,6 @@
-'''
-
-cp settings.py, without API token.
-
-'''
+settings = {
+    'API-TOKEN': '***** GET YOUR SLACK API TOKEN AND WRITE IT HERE! *****',
+    'CHANNEL': '#general',
+    'TEST': True,
+    'FORMAT': 'simple',
+}

@@ -24,6 +24,8 @@ def read_argument():
                         help='End of time range, by date format.')
     parser.add_argument('--oldest', '-old', default=oldest,
                         help='Start of time range, by date format.')
+    parser.add_argument('--format', '-f', default=settings['FORMAT'],
+                        help='Output format.')
     args = parser.parse_args()
 
     print('# CHANNEL: {}'.format(args.channel))
@@ -56,7 +58,7 @@ def get_history(channel_name, latest_date, oldest_date, channel_name2id, count=1
     return history_json
 
 
-def format_shaping(slacker, datum, format='markdown'):
+def format_shaping(slacker, datum, format='simple'):
     try:
         username = slacker.users.info(datum['user']).body['user']['name']
     except KeyError:
