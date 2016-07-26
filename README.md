@@ -1,6 +1,9 @@
 # Slack2Ever
 Save Slack logs into Evernote notebook.
 
+## Not only for evernote.
+Save Slack logs in a variety of formats.
+
 ## Settings
 Install requirements by pip.
  $ pip install -r requirements.txt
