@@ -1,6 +1,17 @@
-settings = {
+slacksettings = {
     'API-TOKEN': '***** GET YOUR SLACK API TOKEN AND WRITE IT HERE! *****',
     'CHANNEL': '#general',
-    'TEST': True,
     'FORMAT': 'simple',
+}
+
+
+pukiwikisettings = {
+    # sample setting for a virtual machine made by vagrant, ubuntu 14.04 server (VirtualBox)
+    # Make Client
+    'HostName': '127.0.0.1',
+    'User': 'vagrant',
+    'Port': '2222',
+    'IdentityFile': '***** WRITE YOUR OWN *****',
+    # Wiki pages directory path (usually, '$PATH_TO_PUKIWIKI/wiki/')
+    'WikiDataPath': '/var/www/html/wiki/wiki/'
 }
