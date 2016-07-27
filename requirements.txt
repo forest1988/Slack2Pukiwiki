@@ -1,1 +1,3 @@
 slacker
+paramiko
+

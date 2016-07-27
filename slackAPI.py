@@ -7,7 +7,7 @@ import calendar
 import json
 
 # --- import settings
-from settings import settings
+from settings import slacksettings as settings
 
 # --- Default Time settings
 # latest : Today's 00:00 , oldest : Yesterday's 00:00
