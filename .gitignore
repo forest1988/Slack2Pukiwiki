@@ -94,3 +94,10 @@ settings.py
 
 # pyCharm
 .idea
+
+# tmp
+tmp/
+tmp.txt
+
+# output
+slackbackup/*
