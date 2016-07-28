@@ -5,6 +5,12 @@ slacksettings = {
 }
 
 
+outputformat = {
+    'simple': "{:15}  {}\n {}\n",
+    'pukiwiki': "- {:15}  {}\n {}\n\n",
+}
+
+
 pukiwikisettings = {
     # sample setting for a virtual machine made by vagrant, ubuntu 14.04 server (VirtualBox)
     # Make Client

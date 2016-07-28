@@ -44,6 +44,12 @@ def read_argument():
     print('# FORMAT : output as {} format.'.format(args.format))
     print('# OUTPUT : write to {} .'.format(args.output))
 
+    # Make filelist (CAUTION! filelist.txt is overwritten for each time.)
+    outputfilelist = open('slackbackup/filelist.txt', 'w')
+    outputfilelist.write(args.output)
+    outputfilelist.write('\n')
+    outputfilelist.close()
+
     print('')
     return args
 
