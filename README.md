@@ -38,6 +38,9 @@ $ python slackAPI.py --format pukiwiki
 $ python txt2pukiwiki.py -l slackbackup/filelist.txt
 ```
 
+__You cannot see any update in pukiwiki notification (the left column by default), 
+but you can see the new page in 'page list' page.__
+
 You can use both arguments and settings.py for some options.
 For example, if you want to use 'pukiwiki' format in slackAPI.py, 
 You may write `'FORMAT': 'pukiwiki'` in settings.py, instead of use `--format` option.
