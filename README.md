@@ -57,3 +57,25 @@ Please enjoy updating your pukiwiki!
 The scripts are written for __Python 3__. 
 We coded them to be compatible with __Python 2__, but there perhaps remain some bugs. 
 Please feel free to ask us if you have trouble using them. 
+
+
+## TIPS
+### 'pip install requirements' fails
+- Maybe your account don't have correct permission. Please try using sudo.
+```shell
+$ sudo pip install -r requirements
+```
+
+- Maybe your pip version is too old. Please try updating pip.
+```shell
+$ pip install pip --upgrade
+```
+
+
+### 'import paramiko' error
+Maybe 'cryptography' module doesn't work well. Please try reinstalling it.
+```shell
+$ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+$ sudo pip install cryptography --force-reinstall
+```
+

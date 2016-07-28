@@ -10,7 +10,7 @@ slacksettings = {
 
 outputformat = {
     'simple': "{:15}  {}\n {}\n",
-    'pukiwiki': "- {:15}  {}\n {}\n\n",
+    'pukiwiki': "- {:15}  {}\n{}\n\n",
 }
 
 
