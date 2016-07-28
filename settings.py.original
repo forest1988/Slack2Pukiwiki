@@ -1,3 +1,6 @@
+from __future__ import unicode_literals
+
+
 slacksettings = {
     'API-TOKEN': '***** GET YOUR SLACK API TOKEN AND WRITE IT HERE! *****',
     'CHANNEL': '#general',

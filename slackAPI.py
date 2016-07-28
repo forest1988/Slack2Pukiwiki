@@ -130,7 +130,10 @@ if __name__ == "__main__":
 
     for datum in history['messages'][::-1]:
         shaped = format_shaping(slacker, datum, args.format)
-        outputfile.write(shaped)
+        try:
+            outputfile.write(shaped)
+        except UnicodeEncodeError:
+            outputfile.write(shaped.encode('utf-8'))
 
     outputfile.close()
 
