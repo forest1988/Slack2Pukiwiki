@@ -1,8 +1,5 @@
-# Slack2Ever
-Save Slack logs into Evernote notebook.
-
-## Not only for evernote.
-Save Slack logs in a variety of formats.
+# SlackPukiwiki
+Save Slack logs into Pukiwiki.
 
 ## Settings
 Install requirements by pip.
@@ -78,4 +75,3 @@ Maybe 'cryptography' module doesn't work well. Please try reinstalling it.
 $ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 $ sudo pip install cryptography --force-reinstall
 ```
-
