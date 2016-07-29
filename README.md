@@ -1,4 +1,4 @@
-# SlackPukiwiki
+# Slack2Pukiwiki
 Save Slack logs into Pukiwiki.
 
 ## Settings
@@ -75,3 +75,8 @@ Maybe 'cryptography' module doesn't work well. Please try reinstalling it.
 $ sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 $ sudo pip install cryptography --force-reinstall
 ```
+
+
+### ssh key not found
+Try not using ~/ as $HOME. Please write as '/Users/<username>/.ssh/<ssh-key>'
+
