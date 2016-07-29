@@ -78,5 +78,5 @@ $ sudo pip install cryptography --force-reinstall
 
 
 ### ssh key not found
-Try not using ~/ as $HOME. Please write as '/Users/<username>/.ssh/<ssh-key>'
+Try not using ~/ as $HOME. 
 
