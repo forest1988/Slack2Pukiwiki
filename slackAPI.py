@@ -83,8 +83,11 @@ def format_shaping(slacker, datum, format_name='simple'):
     try:
         username = slacker.users.info(datum['user']).body['user']['name']
     except KeyError:
-        username = datum['username']
-
+        try:
+            username = datum['username']
+        except KeyError:
+            username = 'NODATA'
+            
     text = datum['text']
     # from UNIX timestamp to datetime Object.
     dt = datetime.datetime.fromtimestamp(int(datum['ts'][0:datum['ts'].find('.')]))
